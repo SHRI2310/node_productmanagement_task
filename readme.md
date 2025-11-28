@@ -21,9 +21,9 @@ All data stored in MongoDB, and tested using Postman.
 
 ## Quick start (local)
 1. Copy files into project folder
-2. Create `.env` from `.env.example` and set `MONGO_URI`, `JWT_SECRET`, `ADMIN_EMAIL`, `ADMIN_PASSWORD`
+2. Create `.env` set `MONGO_URI`, `JWT_SECRET`, `ADMIN_EMAIL`, `ADMIN_PASSWORD`
 3. Start MongoDB locally (e.g., `mongod --dbpath ~/data/db` or use MongoDB Compass)=> I have used mongodb Compass for managing the DB
-4. Install & run:
-   
+4. 
+5. Install & run:
    npm install
    npm run dev
